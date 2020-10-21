@@ -1,7 +1,7 @@
 # kabug-rb
 Repositorie of project with Cucumber and Ruby
 
-##how to execute the project
+## How to execute the project
 
 *need have ruby installed
 
