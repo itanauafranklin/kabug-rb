@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'itinha/rubywd'
+            image 'ruby'
         }
     }
     
