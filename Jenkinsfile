@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'ruby'
+            image 'itinha/rubywd'
         }
     }
     
@@ -15,6 +15,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Runing regression tests'
+                sh 'bundle exec cucumber -p ci'
             }
                 
         }
